@@ -7,3 +7,4 @@ openjdk:17.0.2-oraclelinux8
 --platform=linux/amd64 openjdk:17-oracle
 --platform=linux/arm64 nginx:1.26
 --platform=linux/arm64 nacos/nacos-server:v2.3.2-slim
+--platform=linux/arm64 mysql:8.2.0
