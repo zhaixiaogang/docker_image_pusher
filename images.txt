@@ -1,4 +1,3 @@
 zookeeper:3.8.2
-oraclelinux8
 dtopensource/taier-mysql:latest
 dtopensource/taier
