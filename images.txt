@@ -3,11 +3,10 @@ rockylinux:9.3.20231119-minimal
 openjdk:17.0.2-oraclelinux8
 --platform=linux/arm64 mysql:8.0.38
 --platform=linux/arm64 redis:6.2
---platform=linux/arm64/v8 openjdk:17-oracle
---platform=linux/amd64 openjdk:17-oracle
+--platform=dtopensource/taier-mysql:latest
+--platform=dtopensource/taier:latest
 --platform=linux/arm64 nginx:1.26
 --platform=linux/arm64 nacos/nacos-server:v2.3.2-slim
---platform=linux/arm64 mysql:8.2.0
+--platform=linux/arm64 mysql:5.7.33
 --platform=linux/arm64 rancher/local-path-provisioner:master-head
 --platform=linux/arm64/v8 busybox:latest
-
