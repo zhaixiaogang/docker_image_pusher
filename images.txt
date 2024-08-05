@@ -1,6 +1,4 @@
-rockylinux:9.3.20231119-minimal
---platform=linux/arm64/v8 zookeeper:3.8.2
-openjdk:17.0.2-oraclelinux8
+zookeeper:3.8.2
+oraclelinux8
 dtopensource/taier-mysql:latest
 dtopensource/taier
-=linux/arm64 nginx:1.26mysql:5.7.33
